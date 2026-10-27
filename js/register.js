@@ -12,7 +12,7 @@ registerForm.addEventListener("submit", async (e) => {
   formdata.append("file", uploadInput.files[0]); 
 
   const res = await axios.post(
-    "https://n30-youtube-api-qys5.onrender.com/register",
+    "https://n30-youtube-api.onrender.com/register",
     formdata,
   );
   if (res.data.status == 200) {
