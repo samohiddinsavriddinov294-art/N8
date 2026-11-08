@@ -1,0 +1,14 @@
+[
+    {
+        "userId": 1,
+        "username": "Alijonnn",
+        "password": "sdadasddda",
+        "profileImg": "http://localhost:4000/uploads/1794050502821-mac2.jpg"
+    },
+    {
+        "userId": 2,
+        "username": "Alijonnn",
+        "password": "sdadasdddadd",
+        "profileImg": "http://localhost:4000/uploads/1794050515104-mac2.jpg"
+    }
+]
