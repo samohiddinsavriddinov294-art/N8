@@ -1,0 +1,42 @@
+[
+    {
+        "orderId": 3,
+        "userId": 2,
+        "foods": {
+            "foodId": 1,
+            "food_name": "Cola",
+            "food_img": "https://example.com/pizza.jpg"
+        },
+        "count": 2
+    },
+    {
+        "orderId": 4,
+        "userId": 3,
+        "foods": {
+            "foodId": 1,
+            "food_name": "Cola",
+            "food_img": "https://example.com/pizza.jpg"
+        },
+        "count": 4
+    },
+    {
+        "orderId": 5,
+        "userId": 3,
+        "foods": {
+            "foodId": 3,
+            "food_name": "Burger Cheese",
+            "food_img": "https://example.com/burger.jpg"
+        },
+        "count": 2
+    },
+    {
+        "orderId": 6,
+        "userId": 3,
+        "foods": {
+            "foodId": 3,
+            "food_name": "Burger Cheese",
+            "food_img": "https://example.com/burger.jpg"
+        },
+        "count": 2
+    }
+]
