@@ -1,4 +1,4 @@
-export function registerUser(req, res, next) {
+const registerUser = (req, res, next) => {
   const { username, telephone } = req.body;
 
   if(!username || !telephone){
@@ -11,7 +11,7 @@ export function registerUser(req, res, next) {
 }
 
 
-export function foundUserID(req, res, next) {
+const foundUserID = (req, res, next) => {
   const userId = Number(req.params.userId);
 
   if (Number.isNaN(userId)) {
@@ -21,3 +21,7 @@ export function foundUserID(req, res, next) {
   next();
 }
 
+export default {
+  registerUser,
+  foundUserID
+}

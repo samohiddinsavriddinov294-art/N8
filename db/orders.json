@@ -38,5 +38,15 @@
             "food_img": "https://example.com/burger.jpg"
         },
         "count": 2
+    },
+    {
+        "orderId": 7,
+        "userId": 3,
+        "foods": {
+            "foodId": 3,
+            "food_name": "Burger Cheese",
+            "food_img": "https://example.com/burger.jpg"
+        },
+        "count": 2
     }
 ]
